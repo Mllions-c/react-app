@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.svg-elements,
+.svg-elements-animate {
+    fill: #f2e2d7;
+    stroke: #3c231c;
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 4s linear forwards;
+    -moz-animation: dash 4s linear forwards;
+    -ms-animation: dash 4s linear forwards;
+    -o-animation: dash 4s linear forwards;
+    animation: dash 4s linear forwards;
+}
+#m,
+#k {
+    fill: #f2e2d7;
+}
+@-webkit-keyframes dash {
+    0% {
+        stroke-dashoffset: 1300;
+    }
+    75% {
+        stroke-dashoffset: 100;
+        fill: #f2e2d7;
+        stroke: #3c231c;
+    }
+    98% {
+        stroke-dashoffset: 50;
+        fill: #301912;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke: rgba(0, 0, 0, 0.1);
+        fill: #301912;
+    }
+}
+@-moz-keyframes dash {
+    0% {
+        stroke-dashoffset: 1300;
+    }
+    75% {
+        stroke-dashoffset: 100;
+        fill: #f2e2d7;
+        stroke: #3c231c;
+    }
+    98% {
+        stroke-dashoffset: 50;
+        fill: #301912;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke: rgba(0, 0, 0, 0.1);
+        fill: #301912;
+    }
+}
+@-ms-keyframes dash {
+    0% {
+        stroke-dashoffset: 1300;
+    }
+    75% {
+        stroke-dashoffset: 100;
+        fill: #f2e2d7;
+        stroke: #3c231c;
+    }
+    98% {
+        stroke-dashoffset: 50;
+        fill: #301912;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke: rgba(0, 0, 0, 0.1);
+        fill: #301912;
+    }
+}
+@-o-keyframes dash {
+    0% {
+        stroke-dashoffset: 1300;
+    }
+    75% {
+        stroke-dashoffset: 100;
+        fill: #f2e2d7;
+        stroke: #3c231c;
+    }
+    98% {
+        stroke-dashoffset: 50;
+        fill: #301912;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke: rgba(0, 0, 0, 0.1);
+        fill: #301912;
+    }
+}
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 1300;
+    }
+    75% {
+        stroke-dashoffset: 100;
+        fill: #f2e2d7;
+        stroke: #3c231c;
+    }
+    98% {
+        stroke-dashoffset: 50;
+        fill: #301912;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke: rgba(0, 0, 0, 0.1);
+        fill: #301912;
+    }
+}
